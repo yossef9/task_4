@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Target Servlet</title>
+</head>
+<body>
+    <h2>Enter MariaDB Credentials</h2>
+    <form action="/mariaDBServlet/SourceServlet" method="post">
+        <label for="username">MariaDB User Name:</label>
+        <input type="text" id="username" name="username" required><br>
+
+        <label for="password">MariaDB Password:</label>
+        <input type="password" id="password" name="password" required><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
